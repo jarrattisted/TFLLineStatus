@@ -1,5 +1,8 @@
 // Problem: Get status of station from TFL when typed in
 
+function printStatus(station) {
+  
+}
 
 // Solution: Use Node to GET status from TFL on certain stations
 
