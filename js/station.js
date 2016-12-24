@@ -1,10 +1,14 @@
-// Problem: Get status of station from TFL when typed in
+// Problem: Get status of line from TFL when typed in
+// Solution: Use Node to GET status from TFL on certain lines
 
-function printStatus(station) {
-  
+// Use GET Line/{ids} and list of disruptions using .disruptions
+
+function printStatus(line, status) {
+  var message = 'There are currently ' + status + ' on the ' + station + ' line.';
+  console.log(message);
 }
 
-// Solution: Use Node to GET status from TFL on certain stations
+printStatus('Victoria', 'minor delays');
 
 // Connect to API using TFL keys
 // Read the data
