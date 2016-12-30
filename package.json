@@ -1,0 +1,19 @@
+{
+  "name": "TFLLineStatus",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to check the status of a London Underground line 🚉",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrattisted/TFLStationStatus.git"
+  },
+  "author": "Jarratt Isted",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarrattisted/TFLStationStatus/issues"
+  },
+  "homepage": "https://github.com/jarrattisted/TFLStationStatus#readme"
+}
